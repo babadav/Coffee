@@ -73,3 +73,68 @@ footer{
 	font-size: 53px
 }
 
+.slider{
+	display: flex;
+    justify-content: center;
+}
+
+.hero{
+	display: flex;
+	justify-content: center;
+}
+
+h4{
+	font-family: helvetica, arial, sans-serif;
+	color: #bf9280;
+}
+
+h2{
+	color: #724D42;
+	font-family: 'holtwood one sc';
+	font-weight: 700;
+}
+
+.background{
+	background-color: #ECDCD5;
+	width: 81%;
+	height: 700px;
+	transform: translate(13%);
+    margin-bottom: 3%;
+    border-radius: 10px;
+
+    p{
+    	color: black;
+    	font-family: helvetica, arial, sans-serif;
+    	font-size: 17px;
+    }
+
+    h3{
+    	color: #724D42;
+    	font-family: helvetica, arial, sans-serif;
+    }
+
+    button{
+		width: 130px;
+		height: 50px;
+		padding-top: 2%;
+		margin-bottom: 3%;
+
+    }
+
+}
+
+.item-img{
+	position: relative;
+	top: 12%;
+}
+
+.text-modal{
+	position: relative;
+	top: 12%;
+
+	
+}
+
+ hr{
+    	border-top: 2px solid #724D42;
+    }
