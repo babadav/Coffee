@@ -3571,7 +3571,7 @@ tbody.collapse.in {
     max-width: none; }
 
 .nav-tabs {
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid white; }
   .nav-tabs > li {
     float: left;
     margin-bottom: -1px; }
@@ -3581,7 +3581,7 @@ tbody.collapse.in {
       border: 1px solid transparent;
       border-radius: 4px 4px 0 0; }
       .nav-tabs > li > a:hover {
-        border-color: #eeeeee #eeeeee #ddd; }
+        border-color: #eeeeee #eeeeee white; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
       color: #555555;
       background-color: #fff;
@@ -5838,7 +5838,8 @@ h1 {
 
 .header {
   font-family: "lobster", Helvetica, Arial, sans-serif;
-  font-size: 80px; }
+  font-size: 80px;
+  margin-bottom: 25px; }
 
 ul li {
   font-family: helvetica, arial, sans-serif;
@@ -5850,7 +5851,8 @@ ul li {
 footer {
   padding-top: 45px;
   padding-bottom: 35px;
-  border-top: 2px solid #342C2A; }
+  border-top: 2px solid #342C2A;
+  background-color: black; }
 
 .address {
   font-family: helvetica, arial, sans-serif; }
@@ -5896,7 +5898,12 @@ h2 {
     width: 130px;
     height: 50px;
     padding-top: 2%;
-    margin-bottom: 3%; }
+    margin-bottom: 3%;
+    margin-top: 1%; }
+  .background img {
+    height: 400px; }
+  .background a {
+    color: #724D42; }
 
 .item-img {
   position: relative;
@@ -5905,8 +5912,23 @@ h2 {
 .text-modal {
   position: relative;
   top: 12%; }
+  .text-modal .blend-description {
+    margin: 0 auto; }
+  .text-modal ul {
+    margin-bottom: 2%; }
 
 hr {
   border-top: 2px solid #724D42; }
+
+.side-nav a {
+  color: #724D42;
+  font-family: helvetica, arial, sans-serif;
+  border-bottom: 2px solid white; }
+
+h2 {
+  color: #EADBD5;
+  font-size: 33px;
+  margin-bottom: 1%;
+  margin-top: 3%; }
 
 /*# sourceMappingURL=main.css.map */
